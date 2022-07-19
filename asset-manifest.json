@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/One_react_prodgect/static/css/main.675304f8.css",
+    "main.js": "/One_react_prodgect/static/js/main.e59d86ef.js",
+    "index.html": "/One_react_prodgect/index.html",
+    "main.675304f8.css.map": "/One_react_prodgect/static/css/main.675304f8.css.map",
+    "main.e59d86ef.js.map": "/One_react_prodgect/static/js/main.e59d86ef.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.675304f8.css",
+    "static/js/main.e59d86ef.js"
+  ]
+}
