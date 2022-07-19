@@ -1,0 +1,40 @@
+$headr-size: 60px;
+$font-size: 16px;
+$nav-pading: ($headr-size / 2) - ($font-size / 2) ;
+
+.container {
+  display: flex;
+  position: sticky;
+  top: 0px;
+  justify-content: space-between;
+  height: $headr-size;
+  background-color: #fff;
+
+  &__img {
+  flex-shrink: 0;
+  margin: auto 0 auto 50px;
+}
+
+  &__nav {
+  display: flex;
+  flex-shrink: 0;
+  margin-right: 40px;
+
+    &__nav_linc {
+      color: black;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: $font-size;
+      padding: 10px;
+      padding-top: $nav-pading;
+
+        &:hover {
+          color: #00ACDC;
+          border-bottom: 4px solid #00ACDC;
+        }
+    }
+  }
+}
+
+
+
